@@ -1,5 +1,7 @@
 # -*- coding:utf-8 -*-
 # --------------list的使用-----------------
+import os
+
 user = ["wulx", "张三", "喜欢打游戏", 123]
 print(len(user))
 print(user[0])
@@ -102,3 +104,6 @@ for i in range(1,10):
         print(f"{j}*{i}={i*j} ",end="")
     print()
 print("测试")
+
+path = os.path.dirname(os.path.abspath(__file__))
+print(path)

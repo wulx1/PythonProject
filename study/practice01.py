@@ -64,9 +64,6 @@ def update_person():
         else:
 
             print("无此联系人")
-
-
-
 def main1():
     print("---欢迎来到通讯录查询系统---")
     print("---请输入你想要的功能---")
