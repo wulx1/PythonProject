@@ -88,39 +88,3 @@ def gui_start():
 
 
 gui_start()
-
-# #while循环使用
-# n = int(input("请输入要打的层数"))
-# index = 1
-# while index <= n:
-#     num = index * """*"""
-#     print(num)
-#     index = index + 1
-#
-# import random
-# WORDS = ("holle")
-# print("猜单词游戏")
-# # iscon
-# words = random.choice(WORDS)
-# print (words)
-# newword = ""
-# while words:
-#     position = random.randrange(len(words))
-#     newword += words[position]
-#     words = words[:position]+words[(position+1)]
-# print("乱序后的单词是",newword)
-# guess = input("请你猜单词")
-# if guess == right:
-#     print("对")
-# else:
-#     print("错了")
-# num = int(input("输入打印层数"))
-# for i in range(0,num):
-#     for j in range(num-i,0,-1):
-#         print(" ",end="")
-#     for j in range(-i,i+1):
-#         print(abs(j)+1,end="")
-#         j += 1
-#     print("")
-# '''
-
