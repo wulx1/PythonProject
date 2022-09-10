@@ -73,6 +73,31 @@ cc=dict2.items()
 print(type(cc))
 for key,vaule in cc:
     print(key,vaule)
-print("dd")
-print("通过git提交代码")
 
+#---------------set的使用---------------
+set1 = set([123,456,789])
+set2 = set([123,456,789,123,123])
+print(set1)
+print(set2)
+set1.add(100)
+print(set1)
+set1.remove(123)
+print(set1)
+
+set3 = set('hello')
+set4 = set(['p','y','y','h','o','n'])
+print(set3)
+print(set4)
+set5 = set4&set3
+print(set5)
+set6 = set4 | set3
+print(set6)
+set7 = set4 - set3
+print(set7)
+list1 = [111,222,333,444,111,222,333,444,555,666]
+aa  = set(list1)
+print(aa)
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(f"{j}*{i}={i*j} ",end="")
+    print()
