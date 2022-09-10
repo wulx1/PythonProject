@@ -30,5 +30,6 @@ if __name__ == '__main__':
             quit()
         else:
             print("您的输入无效！")
+            print()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
