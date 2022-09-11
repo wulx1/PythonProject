@@ -7,3 +7,5 @@ for i in dict1:
     print(i)
 for key in dict1.items():
     print(key)
+for i in dict1.values():
+    print(i)
