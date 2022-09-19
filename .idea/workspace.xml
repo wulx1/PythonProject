@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c135834-02c0-43d0-be6e-6c04c00aca3c" name="Changes" comment="测试">
+    <list default="true" id="6c135834-02c0-43d0-be6e-6c04c00aca3c" name="Changes" comment="python练习之判断一个数是否为素数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/TestDemo/ListandTuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/TestDemo/ListandTuple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/TestDemo/for And if.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/TestDemo/for And if.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +254,7 @@
       <workItem from="1662811626422" duration="1447000" />
       <workItem from="1662826512019" duration="7657000" />
       <workItem from="1663077396048" duration="925000" />
-      <workItem from="1663162410108" duration="7460000" />
+      <workItem from="1663162410108" duration="8043000" />
     </task>
     <task id="LOCAL-00001" summary="修改List and Tuple代码">
       <created>1662698455056</created>
@@ -349,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663077881311</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="python练习之判断一个数是否为素数">
+      <created>1663582182695</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663582182695</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +406,8 @@
     <MESSAGE value="for 循环的练习" />
     <MESSAGE value="for 循环的学习" />
     <MESSAGE value="测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+    <MESSAGE value="python练习之判断一个数是否为素数" />
+    <option name="LAST_COMMIT_MESSAGE" value="python练习之判断一个数是否为素数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
