@@ -107,3 +107,8 @@ print("测试")
 
 path = os.path.dirname(os.path.abspath(__file__))
 print(path)
+str1 = "wulongxing"
+for i in str1:
+    print(i,"", end="")
+
+

@@ -39,7 +39,6 @@ while (num < 100):
     num = num + 1
 print(result)
 
-
 '''计算1到100的奇数和and偶数和'''
 count = 0
 result1 = 0
@@ -52,6 +51,7 @@ while count <= 100:
     count += 1
 print(result1, result2)
 
+
 def ma():
     for num in range(10, 20):  # 迭代 10 到 20 之间的数字
         for i in range(2, num):  # 根据因子迭代
@@ -61,13 +61,29 @@ def ma():
                 break  # 跳出当前循环
         else:  # 循环的 else 部分
             print('%d 是一个质数' % num)
+
+
 ma()
 
 '''条件语句和循环语句综合实例'''
-#1、打印九九乘法表
-for i in range(1,10):
-    for j in range(1,i+1):
-        print(f"{j}x{i}={i*j} ",end="")
+# 1、打印九九乘法表
+for i in range(1, 10):
+    for j in range(1, i + 1):
+        print(f"{j}x{i}={i * j} ", end="")
     print()
     print("测试")
 
+# '''判断年份是不上闰年'''
+# year = int(input("请输入年份:"))
+# if year % 4 == 0 and year % 400 == 0:
+#     print(year,"是闰年")
+# else:
+#     print(year , "不是闰年")
+
+list1 = list(range(1,21))
+print(list1)
+list2 = [x + x for x  in range(1,11) if x %2 == 0]
+list3 = ()
+print(list2)
+for i in reversed(list1):
+    print(i,end=" ")
