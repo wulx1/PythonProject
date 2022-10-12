@@ -7,6 +7,14 @@ test suite
 test runner
 测试运行器
 用于执行和输出结果的组件
+
+包含知识点
+使用测试套件时，测试用例的执行顺序可以自定义，按照添加的顺序执行
+有两种添加测试用例的方式，推荐方式二，代码更少更快捷
+addTests(tests) ，传入的 tests 可以是list、tuple、set
+添加的测试用例格式是：单元测试类名(测试用例名)
+使用测试套件执行测试用例的大致步骤是：实例化TestSuite - 添加测试用例 - 实例化TextTestRunner - 运行测试套件
+测试套件也可以添加测试套件
 '''
 import unittest
 class testCase(unittest.TestCase):
@@ -41,3 +49,5 @@ if __name__ == '__main__':
     suite.addTests(testcase)
     #测试套件添加测试套件
     suite.addTest(suite1)
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
