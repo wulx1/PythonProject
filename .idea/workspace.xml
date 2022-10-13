@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c135834-02c0-43d0-be6e-6c04c00aca3c" name="Changes" comment="uninttest学习">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/unitteestPractice/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/unitteestPractice/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/pytestPractice/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/pytestPractice/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/pytestPractice/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/study/pytestPractice/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665407460682</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="uninttest学习">
+      <created>1665579674461</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665579674461</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

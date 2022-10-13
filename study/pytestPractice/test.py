@@ -32,3 +32,12 @@ class Testcase:
     def test_02(self):
         x = 'hello'
         assert hasattr(x,'check')
+
+'''
+知识点
+@pytest.mark.skip 可以加在函数上，类上，类方法上
+如果加在类上面，类里面的所有测试用例都不会执行
+以上小案例都是针对：整个测试用例方法跳过执行，如果想在测试用例执行期间跳过不继续往下执行呢？
+
+pytest.skip()函数基础使用
+'''
